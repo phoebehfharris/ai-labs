@@ -53,8 +53,6 @@ mapToPair([X:Rst|Xs], Target, [Y|Ys]) :-
 
 	mapToPair(Xs, Target, Ys).
 
-
-
 % Test if the objective has been completed at a given position
 complete(P) :- 
     map_adjacent(P, _, o(_)).
